@@ -1,0 +1,47 @@
+body {
+font-family: 'Oxygen', sans-serif;
+}
+
+.TittleName {
+  font-size: 28px;
+}
+
+.active {
+	background: red;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position:absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5vw;
+  font-weight: 900;
+  width: 30%;
+  padding: 10px;
+}
+
+.proverb {
+  position: absolute;
+  width: 375px;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  word-wrap:break-word;
+  font-size: 15px;
+  font-weight:normal;
+}
+
+.classroomimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 70%;
+}
